@@ -1,0 +1,346 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    /* display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 60px 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas:
+        "tb tb tb tb"
+        "cb cb sn sn"
+        "cb cb sn sn"
+        "cb cb sn sn"
+        "cb cb sn sn"
+        "bb bb bb bb" */
+  }
+  
+  .content-body {
+    padding-right: 45%;
+    padding-top: 0%;
+    padding-left: 5%;
+    
+  } 
+
+/* c22 */
+/* :root {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 60px 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas:
+        "tb tb tb ic"
+        "cb cb sn sn"
+        "cb cb sn sn"
+        "cb cb sn sn"
+        "cb cb sn sn"
+        "kl bb bb bb"
+} */
+
+#top-border {
+    grid-area: tb;
+    height: 75px;
+    background: #240f6e;
+    background-size: cover;
+    background-position: top;
+        background-position-x: center;
+        background-position-y: top;
+    position: relative;
+}
+
+#bottom-border {
+    grid-area: bb;
+    height: 75px;
+    background: #240f6e;
+}
+
+.icon {
+    grid-area: ic;
+}
+
+.side-note {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+.sn_hr {
+    padding-left: 50px;
+    padding-right: 20px;
+    color:  #045ba7;
+    font-size:90px;
+    padding-bottom: 0px;
+}
+
+.sn_title {
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 0px;
+    color:  #045ba7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+
+.sn_subtitle {
+    padding-left: 50px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sn_list {
+    padding-left: 40px;
+}
+
+.li_text {
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    margin: 0;
+    padding: 0
+}
+
+table td,
+table th {
+    padding: 0
+}
+
+.c0 {
+    margin-left: 54pt;
+    padding-top: 0pt;
+    padding-left: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.1500000000000001;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c1 {
+    margin-left: 72pt;
+    padding-top: 0pt;
+    padding-left: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.1500000000000001;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c5 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 14pt;
+    font-family: "Arial";
+    font-style: normal
+}
+
+.c3 {
+    color: #240f6e;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 15pt;
+    font-family: "Arial";
+    font-style: normal
+}
+
+.c6 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.1500000000000001;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+    height: 11pt
+}
+
+.c4 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal
+}
+
+.c13 {
+    color: #240f6e;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 13pt;
+    font-family: "Arial";
+    font-style: normal
+}
+
+.c11 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 10pt;
+    font-family: "Open Sans";
+    font-style: italic
+}
+
+.c17 {
+    padding-top: 0pt;
+    padding-bottom: 10pt;
+    line-height: 1.1500000000000001;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c10 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.1500000000000001;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c7 {
+    padding-top: 16pt;
+    padding-bottom: 8pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    text-align: left
+}
+
+.c2 {
+    padding-top: 16pt;
+    padding-bottom: 8pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    text-align: center
+}
+
+.c22 {
+    background-color: #ffffff;
+    max-width: 360pt;
+    padding: 72pt 216pt 72pt 36pt
+}
+
+.c9 {
+    padding: 0;
+    margin: 0
+}
+
+.c19 {
+    margin-left: 18pt;
+    text-indent: -18pt
+}
+
+.c21 {
+    color: #240f6e;
+    font-weight: 700
+}
+
+.c15 {
+    margin-left: 36pt;
+    padding-left: 0pt
+}
+
+.c12 {
+    margin-left: 108pt;
+    padding-left: 0pt
+}
+
+.c14 {
+    height: 11pt
+}
+
+.c23 {
+    color: #240f6e
+}
+
+.title {
+    padding-top: 8pt;
+    color: #240f6e;
+    font-weight: 700;
+    font-size: 24pt;
+    padding-bottom: 0pxt;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.0;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.title2 {
+    padding-top: 0px;
+    color: #240f6e;
+    font-weight: 700;
+    font-size: 24pt;
+    padding-bottom: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.0;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.subtitle {
+    padding-top: 18pt;
+    color: #666666;
+    font-size: 24pt;
+    padding-bottom: 4pt;
+    font-family: "Georgia";
+    line-height: 1.1500000000000001;
+    page-break-after: avoid;
+    font-style: italic;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+li {
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Open Sans"
+}
+
+p {
+    margin: 0;
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Open Sans"
+}
+
+h1 {
+    padding-top: 16pt;
+    color: #240f6e;
+    font-weight: 700;
+    font-size: 15pt;
+    padding-bottom: 8pt;
+    font-family: "Open Sans";
+    line-height: 1.1500000000000001;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h2 {
+    padding-top: 16pt;
+    color: #240f6e;
+    font-weight: 700;
+    font-size: 13pt;
+    padding-bottom: 8pt;
+    font-family: "Open Sans";
+    line-height: 1.1500000000000001;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
